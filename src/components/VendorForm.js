@@ -320,9 +320,9 @@ const ReactTable = React.memo((props) => {
                             "X-RapidAPI-Host":
                               "rapidprod-sendgrid-v1.p.rapidapi.com",
                             "X-RapidAPI-Key":
-                              process.env.REACT_APP_RAPID_API_KEY,
+                            '360cce1328mshd73321bce04eebap1fe6acjsnc68df0511ba4',
                           },
-                          data: `{"personalizations":[{"to":[{"email":"${distributor[2]}"}],"subject":"Dispatch Item"}],"from":{"email":"rp589006@gmail.com"},"content":[{"type":"text/plain","value":"${body}"}]}`,
+                          data: `{"personalizations":[{"to":[{"email":"${distributor[2]}"}],"subject":"Dispatch Item"}],"from":{"email":"shubhamsingh.ss.1407@gmail.com"},"content":[{"type":"text/plain","value":"${body}"}]}`,
                         };
                         axios
                           .request(options)
